@@ -4,6 +4,8 @@ import string
 from nltk.corpus import stopwords
 import nltk
 nltk.download('punkt')
+nltk.download('stopwords')
+
 
 nltk.corpus.stopwords.words('english')
 
